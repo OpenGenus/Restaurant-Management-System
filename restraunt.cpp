@@ -56,8 +56,6 @@ public:
                 tableCount[it.first]--;
                 tableStatus[tableId].first = false;
                 tableStatus[tableId].second = people;
-                // cout << tableStatus[tableId].first << endl;
-                // cout << tableStatus[tableId].second << endl;
                 break;
             }
 
@@ -233,8 +231,6 @@ public:
              << "Number of groups in queue (6-seater): " << waiting6.size() << endl;
         system("pause");
         cout << "\t---------Table Status---------" << endl;
-        // cout << "demo" << Table::tableStatus[24].first << " " << Table::tableStatus[24].second << endl;
-        // cout << "demo" << tableStatus[24].first << " " << tableStatus[24].second << endl;
         cout << "Available tables are: ";
         for (auto it : tableStatus)
         {
@@ -242,11 +238,6 @@ public:
             {
                 cout << it.first << " ";
             }
-            // else
-            // {
-            //     cout << "Table " << it.first << " is allocated" << endl;
-            //     printBill(it.first);
-            // }
         }
         cout << endl;
         system("pause");
