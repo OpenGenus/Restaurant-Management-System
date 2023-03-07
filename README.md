@@ -24,3 +24,7 @@ This is a simple implementation of restraunt management system using C++. Its a 
 ## Table getting free after viewing bill
 
 ![image](https://user-images.githubusercontent.com/72661784/222941681-61f36f29-ca6f-4c0c-9ffc-29cb0015b5f0.png)
+
+## Overview
+
+![image](https://user-images.githubusercontent.com/72661784/223391879-3396c12f-e3bf-443b-898c-7eccb4921db5.png)
