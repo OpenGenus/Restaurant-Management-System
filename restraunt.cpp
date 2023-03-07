@@ -110,7 +110,9 @@ public:
         {7, {"Meals", 80}},
         {8, {"Naan", 18}},
         {9, {"Curry", 210}},
-        {10, {"Ice", 250}}};
+        {10, {"Ice", 250}},
+        {11, {"Chai", 15}},
+        {12, {"Coffee", 250}}};
 
     void orderFood()
     {
@@ -135,7 +137,7 @@ public:
         while (1)
         {
             cin >> orderNo;
-            if (cin.fail() || orderNo > 10 || orderNo < 1)
+            if (cin.fail() || orderNo > 12 || orderNo < 1)
                 break;
             viewBill[tableId][orderNo]++;
         }
