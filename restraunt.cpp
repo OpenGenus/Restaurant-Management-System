@@ -133,7 +133,7 @@ public:
         }
         int orderNo;
         cout << "Enter the numbers you want to order one by one." << endl
-             << "When you finish, enter any charachter: ";
+             << "When you finish, enter any character: ";
         while (1)
         {
             cin >> orderNo;
@@ -247,7 +247,7 @@ public:
         {
             if (it.second.first == false)
             {
-                cout << "Table " << it.first << " is allotted, " << it.second.second << " people occupie thw table, order details: " << endl;
+                cout << "Table " << it.first << " is allotted, " << it.second.second << " people occupied the table, order details: " << endl;
                 printBill(it.first);
             }
         }
@@ -261,7 +261,7 @@ int main()
     while (1)
     {
         int option;
-        cout << "     Welcome to restraunt management system" << endl;
+        cout << "     Welcome to restaurant management system" << endl;
         cout << "*************************************************" << endl;
         cout << "1. Table allocation" << endl
              << "2. Order food" << endl
