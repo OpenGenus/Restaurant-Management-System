@@ -213,6 +213,10 @@ private:
             }
             cout << "Seats are available" << endl
                  << "Table no " << tno << " is allotted for " << custId << endl;
+            int peopleCount;
+            cout << "Enter number of people: ";
+            cin >> peopleCount;
+            tableStatus[tno].second = peopleCount;
             system("pause");
         }
         else
