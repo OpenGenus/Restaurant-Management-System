@@ -1,4 +1,7 @@
 ## Restaurant Management System in C++
+
+Learn how [this system is designed and implemented](https://iq.opengenus.org/restaurant-management-system-in-cpp/)
+
 This is a simple implementation of restraunt management system using C++. Its a console app where the user is given the options for different services like:
 * Table Allocation: Here the customer will be given the option to enter the number of people in his/her group. Then the program will give the table id which has been allocated to them. If there are no available seats then these people are put in a queue along with their customer id. This is programmed in such a way that if four seater is available then it will be allocated to 3 or 4 people only.
 * Ordering food: The user is asked to enter the table id and then enter the numbers of food which they want to order one by one, to stop ordering, the user can enter any number or charachter out of the range (0-10). After this the order is placed successfully. 
